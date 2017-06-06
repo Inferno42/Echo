@@ -1,3 +1,7 @@
+#Name: Echo Server
+#Author: Christian Little
+#Description: Acts a medium between multiple game servers to link the in-game chats.
+
 from includes.SocketListener import SocketListener
 
 class Echo_Server:
