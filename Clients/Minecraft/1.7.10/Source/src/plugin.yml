@@ -1,0 +1,16 @@
+name: EchoMC
+version: 1.0
+description: Allows in-game chat between different games or servers.
+author: Inferno42
+main: echoclient.EchoMC
+commands:
+  echomc:
+    description: Gives information about the Echo connection
+    usage: /echomc
+    permission: echomc.echomc
+    permission-message: You don't have permission.
+  echomc_reset:
+    description: Resets the Echo connection
+    usage: /echomc_reset
+    permission: echomc.reset
+    permission-message: You don't have permission.
